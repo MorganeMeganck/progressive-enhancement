@@ -1,4 +1,33 @@
 .histoire {
-  font-size: 40px;
-  
+  font-size: 20px;
+  font-family: Didot, Didot LT STD, Hoefler Text, Garamond, Times New Roman, serif;
+  color: grey;
+  Line-Height: 2;
+}
+
+a {
+  text-decoration: underline;
+  color: #a00;
+}
+a:visited {
+  color: #844;
+}
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: white;
+  background: #800;
+}
+div {
+width: 90%;
+margin: auto;
+}
+.citation {
+  margin:auto;
+  display: block;
+  border-left-style: solid;
+  width: 50%;
+}
+.responsive {
+    max-width: 80%;
+    height: auto;
 }
